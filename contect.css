@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background-color: purple;
+  color: #fff;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: orange;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.navbar .nav-links a {
+  margin-left: 25px;
+  color: #ccc;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar .nav-links a:hover {
+  color: #00e6e6;
+}
+
+.contact-section {
+  padding: 50px 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-section h2 {
+  text-align: center;
+  color: #66ff66;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input,
+textarea {
+  padding: 12px;
+  background-color: transparent;
+  border: 1px solid #66ff66;
+  border-radius: 5px;
+  color: rgb(205, 190, 190);
+  font-size: 16px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #cccccc;
+}
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: #00e6e6;
+  color: #000;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 15px #00e6e6;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #00e6e6;
+}
+
+button:hover {
+  background-color: #55cc55;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #999;
+  border-top: 1px solid #222;
+  margin-top: 40px;
+}
